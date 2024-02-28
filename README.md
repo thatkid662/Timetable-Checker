@@ -3,7 +3,7 @@
 A not-so-simple menu bar app to dynamically see your SEQTA timetable.
 Made with Python and rumps. Only for MacOS and people who use SEQTA
 
-## H2 How to use
+## How to use
 Download the latest release  
 Extract it to your Documents folder (it should look like Documents/timetablecheck  
 Run 'install-dependencies'  
