@@ -3,7 +3,8 @@ import main
 from datetime import datetime
 
 def updater(f=None, t=None):
-    cookie = main.readstate("details.txt")
+    website = main.readstate("website.txt")
+    cookie = main.readstate("cookie.txt")
     cookies = {
     'JSESSIONID': cookie,
     }
@@ -22,7 +23,7 @@ def updater(f=None, t=None):
             'student': 5000,
         }
     try:
-        response = requests.post('https://learn.ststephens.wa.edu.au/seqta/student/load/timetable?', cookies=cookies, headers=None, json=json_data)
+        response = requests.post((website + '/seqta/student/load/timetable?'), cookies=cookies, headers=None, json=json_data)
     # Check for successful response
     except:
         print('An exception occured, probably invalid input')

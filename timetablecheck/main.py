@@ -140,7 +140,7 @@ class MyMenuApp(rumps.App):
     def __init__(self):  # Note the double underscores for the constructor
         super(MyMenuApp, self).__init__("")
         
-        if readstate("details.txt") == "":
+        if readstate("cookie.txt") == "":
             subprocess.run(["/usr/local/bin/python3", "gui3.py"], cwd=cwd)
 
         self.icon = "resources/logo.png"
@@ -221,7 +221,6 @@ class MyMenuApp(rumps.App):
                         e = eval(content, {"a": a})
                         adv = adv.replace("{" + str(content) + "}", str(e))
                     self.title = adv
-                    print(adv)
                 else:
                     self.title = "No period."
             else:
