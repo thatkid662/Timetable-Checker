@@ -1,8 +1,9 @@
 # Timetable Checker
+![icon](https://lh3.googleusercontent.com/RwasX4H1kZEPRr9zZKnSvHImn4YmoGPQASqM4yp-BcdO9A8T62twOq2ckBXbnsrMrCy13GAfYEufEHrOxbJdc44h=s120)
 A not-so-simple menu bar app to dynamically see your SEQTA timetable.
 Made with Python and rumps.
 
-# How to use
+## H2 How to use
 Download the latest release  
 Extract it to your Documents folder (it should look like Documents/timetablecheck  
 Run 'install-dependencies'  
