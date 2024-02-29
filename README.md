@@ -4,6 +4,8 @@ A menu bar app to dynamically see your SEQTA timetable.
 Made with Python and rumps. Only for MacOS and people who use SEQTA  
 Make sure to star and [follow my socials!](linktr.ee/arastine)
 
+[See all releases here](https://drive.google.com/drive/folders/13Z68PTLBM9wOWr2Nd9cwxvcEugE7I_qr?usp=sharing)  
+
 ## How to use
 Download the latest release  
 Extract it to your Documents folder (it should look like Documents/timetablecheck  
