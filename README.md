@@ -9,12 +9,13 @@ Make sure to star and [follow my socials!](linktr.ee/arastine)
 ## How to use
 Download the latest release  
 Extract it to your Documents folder (it should look like ~/Documents/timetablecheck)  
-Run 'install-dependencies.app' **CURRENTLY REQUIRES XCODE COMMAND-LINE TOOLS**  
+Run 'install-dependencies.app' and install command-line tools when prompted.
+Install python and run the script again to install dependencies.
 Take screenshots of your timetable and put them in resources. Name them a.png and b.png for the respective weeks.  
 Pin Timetable Checker to your dock (if you want)  
 Run it and enjoy!  
 
-## Alternatively if you don't have xcode command line tools  
+## Alternatively if you don't have Command Line Tools  
 Download the latest release  
 Extract it to your Documents folder (it should look like ~/Documents/timetablecheck)  
 Run 'install-dependencies.app' and ignore the install command-line tools prompt  
